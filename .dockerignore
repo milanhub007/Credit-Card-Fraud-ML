@@ -1,0 +1,45 @@
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+notebooks/
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# MLflow runs
+mlruns/
+src/serving/mlflow_metadata/
+
+# Data (mount at runtime instead)
+data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Tests
+src/app/test_api.py
